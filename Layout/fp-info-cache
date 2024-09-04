@@ -1,4 +1,4 @@
-24622673798497568
+24629587134922504
 Alps_MX_Stabilizers
 Alps-MX-Stabilizers-1.5U
 
@@ -63987,6 +63987,13 @@ KB2040
 26
 26
 JohnDeereLibrary
+Kailh_GMx0
+
+
+0
+3
+3
+JohnDeereLibrary
 Kailh_MX_Hotswap_socket_CPG151101S11
 
 
@@ -64021,6 +64028,13 @@ MOLEX_0955012401
 0
 6
 6
+JohnDeereLibrary
+Mouse Wheel Encoder
+
+
+0
+3
+3
 JohnDeereLibrary
 Pomona_1581
 
@@ -64071,12 +64085,26 @@ SP3232ECT
 16
 16
 JohnDeereLibrary
+SPCP168A
+
+
+0
+14
+14
+JohnDeereLibrary
 SW_500SSP1S1M2REA
 
 
 0
 3
 3
+JohnDeereLibrary
+Straight 9 Contact Pins - 2.2mm
+
+
+0
+9
+9
 JohnDeereLibrary
 VQFN-HR
 
