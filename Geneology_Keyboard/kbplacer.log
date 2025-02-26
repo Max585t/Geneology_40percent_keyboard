@@ -1,0 +1,302 @@
+[kbplacer_plugin_action.py:65]: Plugin version: 0.12
+[kbplacer_plugin_action.py:66]: Python version: '3.11.5 (main, May 10 2024, 05:24:12) [MSC v.1939 64 bit (AMD64)]'
+[kbplacer_plugin_action.py:67]: KiCad version: 8.0.3 with 4.2.0 msw (phoenix) wxWidgets 3.2.4
+[kbplacer_dialog.py:585]: Language: en
+[kbplacer_plugin_action.py:75]: GUI state: {"layout_path": "C:\\Users\\u4x5sx5\\Downloads\\40%.json", "key_distance": [19.05, 19.05], "key_info": {"annotation_format": "SW{}", "position_option": "Default", "position": {"x": 0.0, "y": 0.0, "orientation": 0.0, "side": "Front"}, "template_path": ""}, "enable_diode_placement": false, "route_switches_with_diodes": false, "optimize_diodes_orientation": false, "diode_info": {"annotation_format": "D{}", "position_option": "Default", "position": {"x": 5.08, "y": 3.03, "orientation": 90.0, "side": "Back"}, "template_path": ""}, "additional_elements": [{"annotation_format": "ST{}", "position_option": "Custom", "position": {"x": 0.0, "y": 0.0, "orientation": 0.0, "side": "Front"}, "template_path": ""}], "route_rows_and_columns": true, "template_path": "", "generate_outline": false, "outline_delta": 0.0}
+[key_placer.py:361]: Set key 1U distance: 19050000/19050000
+[key_placer.py:116]: Unexpected switch net position detected, each switch should have two unique nets unambiguously defining position in key matrix, switch-by-matrix association can't be used
+[key_placer.py:123]: Switches by nets: {}
+[key_placer.py:127]: Diodes by switch: {}
+[board_modifier.py:64]: Searching for SW1 footprint in C:/Github/Geneology_40percent_keyboard/Geneology_Keyboard/Geneology_Keyboard.kicad_pcb
+[key_placer.py:557]: Looking for connection template between SW1 and other elements
+[board_modifier.py:98]: Getting SW1 footprint position: (24382400, 23792800)
+[key_placer.py:601]: Got connection template: 
+[kle_serial.py:897]: User layout: [{'name': '40%'}, ['Esc', 'Q', 'W', 'E', 'R', 'T', 'Y', 'U', 'I', 'O', 'P', '|\n\\', {'w': 1.5}, 'Delete', {'x': 0.25}, '7', '8', '9'], [{'w': 1.5}, 'Tab', 'A', 'S', 'D', 'F', 'G', 'H', 'J', 'K', 'L', ':\n;', '"\n\'', 'Enter', {'x': 0.25}, '6', '5', '4'], [{'w': 2}, 'Shift', 'Z', 'X', 'C', 'V', 'B', 'N', 'M', '<\n,', '>\n.', '?\n/', {'w': 1.5}, 'Shift', {'x': 0.25}, '3', '2', '1'], [{'a': 7, 'w': 1.25}, '', {'a': 4}, 'Ctrl', {'w': 1.5}, 'Alt', {'a': 7, 'w': 6.25}, '', {'a': 4, 'w': 1.25}, 'Alt', 'Win', {'w': 1.25}, 'Menu', {'x': 0.25, 'a': 7}, '', '', '']]
+[key_placer.py:661]: Layout offset: (28575000, 28575000)
+[board_modifier.py:85]: Setting SW1 footprint position: (38100000, 38100000)
+[board_modifier.py:85]: Setting SW2 footprint position: (57150000, 38100000)
+[board_modifier.py:85]: Setting SW3 footprint position: (76200000, 38100000)
+[board_modifier.py:85]: Setting SW4 footprint position: (95250000, 38100000)
+[board_modifier.py:85]: Setting SW5 footprint position: (114300000, 38100000)
+[board_modifier.py:85]: Setting SW6 footprint position: (133350000, 38100000)
+[board_modifier.py:85]: Setting SW7 footprint position: (152400000, 38100000)
+[board_modifier.py:85]: Setting SW8 footprint position: (171450000, 38100000)
+[board_modifier.py:85]: Setting SW9 footprint position: (190500000, 38100000)
+[board_modifier.py:85]: Setting SW10 footprint position: (209550000, 38100000)
+[board_modifier.py:85]: Setting SW11 footprint position: (228600000, 38100000)
+[board_modifier.py:85]: Setting SW12 footprint position: (247650000, 38100000)
+[board_modifier.py:85]: Setting SW13 footprint position: (271462500, 38100000)
+[board_modifier.py:85]: Setting SW14 footprint position: (300037500, 38100000)
+[board_modifier.py:85]: Setting SW15 footprint position: (319087500, 38100000)
+[board_modifier.py:85]: Setting SW16 footprint position: (338137500, 38100000)
+[board_modifier.py:85]: Setting SW17 footprint position: (42862500, 57150000)
+[board_modifier.py:85]: Setting SW18 footprint position: (66675000, 57150000)
+[board_modifier.py:85]: Setting SW19 footprint position: (85725000, 57150000)
+[board_modifier.py:85]: Setting SW20 footprint position: (104775000, 57150000)
+[board_modifier.py:85]: Setting SW21 footprint position: (123825000, 57150000)
+[board_modifier.py:85]: Setting SW22 footprint position: (142875000, 57150000)
+[board_modifier.py:85]: Setting SW23 footprint position: (161925000, 57150000)
+[board_modifier.py:85]: Setting SW24 footprint position: (180975000, 57150000)
+[board_modifier.py:85]: Setting SW25 footprint position: (200025000, 57150000)
+[board_modifier.py:85]: Setting SW26 footprint position: (219075000, 57150000)
+[board_modifier.py:85]: Setting SW27 footprint position: (238125000, 57150000)
+[board_modifier.py:85]: Setting SW28 footprint position: (257175000, 57150000)
+[board_modifier.py:85]: Setting SW29 footprint position: (276225000, 57150000)
+[board_modifier.py:85]: Setting SW30 footprint position: (300037500, 57150000)
+[board_modifier.py:85]: Setting SW31 footprint position: (319087500, 57150000)
+[board_modifier.py:85]: Setting SW32 footprint position: (338137500, 57150000)
+[board_modifier.py:85]: Setting SW33 footprint position: (47625000, 76200000)
+[board_modifier.py:85]: Setting SW34 footprint position: (76200000, 76200000)
+[board_modifier.py:85]: Setting SW35 footprint position: (95250000, 76200000)
+[board_modifier.py:85]: Setting SW36 footprint position: (114300000, 76200000)
+[board_modifier.py:85]: Setting SW37 footprint position: (133350000, 76200000)
+[board_modifier.py:85]: Setting SW38 footprint position: (152400000, 76200000)
+[board_modifier.py:85]: Setting SW39 footprint position: (171450000, 76200000)
+[board_modifier.py:85]: Setting SW40 footprint position: (190500000, 76200000)
+[board_modifier.py:85]: Setting SW41 footprint position: (209550000, 76200000)
+[board_modifier.py:85]: Setting SW42 footprint position: (228600000, 76200000)
+[board_modifier.py:85]: Setting SW43 footprint position: (247650000, 76200000)
+[board_modifier.py:85]: Setting SW44 footprint position: (271462500, 76200000)
+[board_modifier.py:85]: Setting SW45 footprint position: (300037500, 76200000)
+[board_modifier.py:85]: Setting SW46 footprint position: (319087500, 76200000)
+[board_modifier.py:85]: Setting SW47 footprint position: (338137500, 76200000)
+[board_modifier.py:85]: Setting SW48 footprint position: (40481250, 95250000)
+[board_modifier.py:85]: Setting SW49 footprint position: (61912500, 95250000)
+[board_modifier.py:85]: Setting SW50 footprint position: (85725000, 95250000)
+[board_modifier.py:85]: Setting SW51 footprint position: (159543750, 95250000)
+[board_modifier.py:85]: Setting SW52 footprint position: (230981250, 95250000)
+[board_modifier.py:85]: Setting SW53 footprint position: (252412500, 95250000)
+[board_modifier.py:85]: Setting SW54 footprint position: (273843750, 95250000)
+[board_modifier.py:85]: Setting SW55 footprint position: (300037500, 95250000)
+[board_modifier.py:85]: Setting SW56 footprint position: (319087500, 95250000)
+[board_modifier.py:85]: Setting SW57 footprint position: (338137500, 95250000)
+[key_placer.py:996]: Diode info: [ElementInfo(annotation_format='D{}', position_option=<PositionOption.UNCHANGED: 'Unchanged'>, position=ElementPosition(x=5.08, y=3.03, orientation=90.0, side=<Side.BACK: 'Back'>), template_path='')]
+[key_placer.py:774]: Placing additional elements for SW57
+[board_modifier.py:98]: Getting SW57 footprint position: (338137500, 95250000)
+[board_modifier.py:75]: Searching for optional ST57 footprint in C:/Github/Geneology_40percent_keyboard/Geneology_Keyboard/Geneology_Keyboard.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:774]: Placing additional elements for SW56
+[board_modifier.py:98]: Getting SW56 footprint position: (319087500, 95250000)
+[board_modifier.py:75]: Searching for optional ST56 footprint in C:/Github/Geneology_40percent_keyboard/Geneology_Keyboard/Geneology_Keyboard.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:774]: Placing additional elements for SW55
+[board_modifier.py:98]: Getting SW55 footprint position: (300037500, 95250000)
+[board_modifier.py:75]: Searching for optional ST55 footprint in C:/Github/Geneology_40percent_keyboard/Geneology_Keyboard/Geneology_Keyboard.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:774]: Placing additional elements for SW54
+[board_modifier.py:98]: Getting SW54 footprint position: (273843750, 95250000)
+[board_modifier.py:75]: Searching for optional ST54 footprint in C:/Github/Geneology_40percent_keyboard/Geneology_Keyboard/Geneology_Keyboard.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:774]: Placing additional elements for SW53
+[board_modifier.py:98]: Getting SW53 footprint position: (252412500, 95250000)
+[board_modifier.py:75]: Searching for optional ST53 footprint in C:/Github/Geneology_40percent_keyboard/Geneology_Keyboard/Geneology_Keyboard.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:774]: Placing additional elements for SW52
+[board_modifier.py:98]: Getting SW52 footprint position: (230981250, 95250000)
+[board_modifier.py:75]: Searching for optional ST52 footprint in C:/Github/Geneology_40percent_keyboard/Geneology_Keyboard/Geneology_Keyboard.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:774]: Placing additional elements for SW51
+[board_modifier.py:98]: Getting SW51 footprint position: (159543750, 95250000)
+[board_modifier.py:75]: Searching for optional ST51 footprint in C:/Github/Geneology_40percent_keyboard/Geneology_Keyboard/Geneology_Keyboard.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:774]: Placing additional elements for SW50
+[board_modifier.py:98]: Getting SW50 footprint position: (85725000, 95250000)
+[board_modifier.py:75]: Searching for optional ST50 footprint in C:/Github/Geneology_40percent_keyboard/Geneology_Keyboard/Geneology_Keyboard.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:774]: Placing additional elements for SW49
+[board_modifier.py:98]: Getting SW49 footprint position: (61912500, 95250000)
+[board_modifier.py:75]: Searching for optional ST49 footprint in C:/Github/Geneology_40percent_keyboard/Geneology_Keyboard/Geneology_Keyboard.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:774]: Placing additional elements for SW48
+[board_modifier.py:98]: Getting SW48 footprint position: (40481250, 95250000)
+[board_modifier.py:75]: Searching for optional ST48 footprint in C:/Github/Geneology_40percent_keyboard/Geneology_Keyboard/Geneology_Keyboard.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:774]: Placing additional elements for SW47
+[board_modifier.py:98]: Getting SW47 footprint position: (338137500, 76200000)
+[board_modifier.py:75]: Searching for optional ST47 footprint in C:/Github/Geneology_40percent_keyboard/Geneology_Keyboard/Geneology_Keyboard.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:774]: Placing additional elements for SW46
+[board_modifier.py:98]: Getting SW46 footprint position: (319087500, 76200000)
+[board_modifier.py:75]: Searching for optional ST46 footprint in C:/Github/Geneology_40percent_keyboard/Geneology_Keyboard/Geneology_Keyboard.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:774]: Placing additional elements for SW45
+[board_modifier.py:98]: Getting SW45 footprint position: (300037500, 76200000)
+[board_modifier.py:75]: Searching for optional ST45 footprint in C:/Github/Geneology_40percent_keyboard/Geneology_Keyboard/Geneology_Keyboard.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:774]: Placing additional elements for SW44
+[board_modifier.py:98]: Getting SW44 footprint position: (271462500, 76200000)
+[board_modifier.py:75]: Searching for optional ST44 footprint in C:/Github/Geneology_40percent_keyboard/Geneology_Keyboard/Geneology_Keyboard.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:774]: Placing additional elements for SW43
+[board_modifier.py:98]: Getting SW43 footprint position: (247650000, 76200000)
+[board_modifier.py:75]: Searching for optional ST43 footprint in C:/Github/Geneology_40percent_keyboard/Geneology_Keyboard/Geneology_Keyboard.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:774]: Placing additional elements for SW42
+[board_modifier.py:98]: Getting SW42 footprint position: (228600000, 76200000)
+[board_modifier.py:75]: Searching for optional ST42 footprint in C:/Github/Geneology_40percent_keyboard/Geneology_Keyboard/Geneology_Keyboard.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:774]: Placing additional elements for SW41
+[board_modifier.py:98]: Getting SW41 footprint position: (209550000, 76200000)
+[board_modifier.py:75]: Searching for optional ST41 footprint in C:/Github/Geneology_40percent_keyboard/Geneology_Keyboard/Geneology_Keyboard.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:774]: Placing additional elements for SW40
+[board_modifier.py:98]: Getting SW40 footprint position: (190500000, 76200000)
+[board_modifier.py:75]: Searching for optional ST40 footprint in C:/Github/Geneology_40percent_keyboard/Geneology_Keyboard/Geneology_Keyboard.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:774]: Placing additional elements for SW39
+[board_modifier.py:98]: Getting SW39 footprint position: (171450000, 76200000)
+[board_modifier.py:75]: Searching for optional ST39 footprint in C:/Github/Geneology_40percent_keyboard/Geneology_Keyboard/Geneology_Keyboard.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:774]: Placing additional elements for SW38
+[board_modifier.py:98]: Getting SW38 footprint position: (152400000, 76200000)
+[board_modifier.py:75]: Searching for optional ST38 footprint in C:/Github/Geneology_40percent_keyboard/Geneology_Keyboard/Geneology_Keyboard.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:774]: Placing additional elements for SW37
+[board_modifier.py:98]: Getting SW37 footprint position: (133350000, 76200000)
+[board_modifier.py:75]: Searching for optional ST37 footprint in C:/Github/Geneology_40percent_keyboard/Geneology_Keyboard/Geneology_Keyboard.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:774]: Placing additional elements for SW36
+[board_modifier.py:98]: Getting SW36 footprint position: (114300000, 76200000)
+[board_modifier.py:75]: Searching for optional ST36 footprint in C:/Github/Geneology_40percent_keyboard/Geneology_Keyboard/Geneology_Keyboard.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:774]: Placing additional elements for SW35
+[board_modifier.py:98]: Getting SW35 footprint position: (95250000, 76200000)
+[board_modifier.py:75]: Searching for optional ST35 footprint in C:/Github/Geneology_40percent_keyboard/Geneology_Keyboard/Geneology_Keyboard.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:774]: Placing additional elements for SW34
+[board_modifier.py:98]: Getting SW34 footprint position: (76200000, 76200000)
+[board_modifier.py:75]: Searching for optional ST34 footprint in C:/Github/Geneology_40percent_keyboard/Geneology_Keyboard/Geneology_Keyboard.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:774]: Placing additional elements for SW33
+[board_modifier.py:98]: Getting SW33 footprint position: (47625000, 76200000)
+[board_modifier.py:75]: Searching for optional ST33 footprint in C:/Github/Geneology_40percent_keyboard/Geneology_Keyboard/Geneology_Keyboard.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:774]: Placing additional elements for SW32
+[board_modifier.py:98]: Getting SW32 footprint position: (338137500, 57150000)
+[board_modifier.py:75]: Searching for optional ST32 footprint in C:/Github/Geneology_40percent_keyboard/Geneology_Keyboard/Geneology_Keyboard.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:774]: Placing additional elements for SW31
+[board_modifier.py:98]: Getting SW31 footprint position: (319087500, 57150000)
+[board_modifier.py:75]: Searching for optional ST31 footprint in C:/Github/Geneology_40percent_keyboard/Geneology_Keyboard/Geneology_Keyboard.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:774]: Placing additional elements for SW30
+[board_modifier.py:98]: Getting SW30 footprint position: (300037500, 57150000)
+[board_modifier.py:75]: Searching for optional ST30 footprint in C:/Github/Geneology_40percent_keyboard/Geneology_Keyboard/Geneology_Keyboard.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:774]: Placing additional elements for SW29
+[board_modifier.py:98]: Getting SW29 footprint position: (276225000, 57150000)
+[board_modifier.py:75]: Searching for optional ST29 footprint in C:/Github/Geneology_40percent_keyboard/Geneology_Keyboard/Geneology_Keyboard.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:774]: Placing additional elements for SW28
+[board_modifier.py:98]: Getting SW28 footprint position: (257175000, 57150000)
+[board_modifier.py:75]: Searching for optional ST28 footprint in C:/Github/Geneology_40percent_keyboard/Geneology_Keyboard/Geneology_Keyboard.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:774]: Placing additional elements for SW27
+[board_modifier.py:98]: Getting SW27 footprint position: (238125000, 57150000)
+[board_modifier.py:75]: Searching for optional ST27 footprint in C:/Github/Geneology_40percent_keyboard/Geneology_Keyboard/Geneology_Keyboard.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:774]: Placing additional elements for SW26
+[board_modifier.py:98]: Getting SW26 footprint position: (219075000, 57150000)
+[board_modifier.py:75]: Searching for optional ST26 footprint in C:/Github/Geneology_40percent_keyboard/Geneology_Keyboard/Geneology_Keyboard.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:774]: Placing additional elements for SW25
+[board_modifier.py:98]: Getting SW25 footprint position: (200025000, 57150000)
+[board_modifier.py:75]: Searching for optional ST25 footprint in C:/Github/Geneology_40percent_keyboard/Geneology_Keyboard/Geneology_Keyboard.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:774]: Placing additional elements for SW24
+[board_modifier.py:98]: Getting SW24 footprint position: (180975000, 57150000)
+[board_modifier.py:75]: Searching for optional ST24 footprint in C:/Github/Geneology_40percent_keyboard/Geneology_Keyboard/Geneology_Keyboard.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:774]: Placing additional elements for SW23
+[board_modifier.py:98]: Getting SW23 footprint position: (161925000, 57150000)
+[board_modifier.py:75]: Searching for optional ST23 footprint in C:/Github/Geneology_40percent_keyboard/Geneology_Keyboard/Geneology_Keyboard.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:774]: Placing additional elements for SW22
+[board_modifier.py:98]: Getting SW22 footprint position: (142875000, 57150000)
+[board_modifier.py:75]: Searching for optional ST22 footprint in C:/Github/Geneology_40percent_keyboard/Geneology_Keyboard/Geneology_Keyboard.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:774]: Placing additional elements for SW21
+[board_modifier.py:98]: Getting SW21 footprint position: (123825000, 57150000)
+[board_modifier.py:75]: Searching for optional ST21 footprint in C:/Github/Geneology_40percent_keyboard/Geneology_Keyboard/Geneology_Keyboard.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:774]: Placing additional elements for SW20
+[board_modifier.py:98]: Getting SW20 footprint position: (104775000, 57150000)
+[board_modifier.py:75]: Searching for optional ST20 footprint in C:/Github/Geneology_40percent_keyboard/Geneology_Keyboard/Geneology_Keyboard.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:774]: Placing additional elements for SW19
+[board_modifier.py:98]: Getting SW19 footprint position: (85725000, 57150000)
+[board_modifier.py:75]: Searching for optional ST19 footprint in C:/Github/Geneology_40percent_keyboard/Geneology_Keyboard/Geneology_Keyboard.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:774]: Placing additional elements for SW18
+[board_modifier.py:98]: Getting SW18 footprint position: (66675000, 57150000)
+[board_modifier.py:75]: Searching for optional ST18 footprint in C:/Github/Geneology_40percent_keyboard/Geneology_Keyboard/Geneology_Keyboard.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:774]: Placing additional elements for SW17
+[board_modifier.py:98]: Getting SW17 footprint position: (42862500, 57150000)
+[board_modifier.py:75]: Searching for optional ST17 footprint in C:/Github/Geneology_40percent_keyboard/Geneology_Keyboard/Geneology_Keyboard.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:774]: Placing additional elements for SW16
+[board_modifier.py:98]: Getting SW16 footprint position: (338137500, 38100000)
+[board_modifier.py:75]: Searching for optional ST16 footprint in C:/Github/Geneology_40percent_keyboard/Geneology_Keyboard/Geneology_Keyboard.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:774]: Placing additional elements for SW15
+[board_modifier.py:98]: Getting SW15 footprint position: (319087500, 38100000)
+[board_modifier.py:75]: Searching for optional ST15 footprint in C:/Github/Geneology_40percent_keyboard/Geneology_Keyboard/Geneology_Keyboard.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:774]: Placing additional elements for SW14
+[board_modifier.py:98]: Getting SW14 footprint position: (300037500, 38100000)
+[board_modifier.py:75]: Searching for optional ST14 footprint in C:/Github/Geneology_40percent_keyboard/Geneology_Keyboard/Geneology_Keyboard.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:774]: Placing additional elements for SW13
+[board_modifier.py:98]: Getting SW13 footprint position: (271462500, 38100000)
+[board_modifier.py:75]: Searching for optional ST13 footprint in C:/Github/Geneology_40percent_keyboard/Geneology_Keyboard/Geneology_Keyboard.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:774]: Placing additional elements for SW12
+[board_modifier.py:98]: Getting SW12 footprint position: (247650000, 38100000)
+[board_modifier.py:75]: Searching for optional ST12 footprint in C:/Github/Geneology_40percent_keyboard/Geneology_Keyboard/Geneology_Keyboard.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:774]: Placing additional elements for SW11
+[board_modifier.py:98]: Getting SW11 footprint position: (228600000, 38100000)
+[board_modifier.py:75]: Searching for optional ST11 footprint in C:/Github/Geneology_40percent_keyboard/Geneology_Keyboard/Geneology_Keyboard.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:774]: Placing additional elements for SW10
+[board_modifier.py:98]: Getting SW10 footprint position: (209550000, 38100000)
+[board_modifier.py:75]: Searching for optional ST10 footprint in C:/Github/Geneology_40percent_keyboard/Geneology_Keyboard/Geneology_Keyboard.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:774]: Placing additional elements for SW9
+[board_modifier.py:98]: Getting SW9 footprint position: (190500000, 38100000)
+[board_modifier.py:75]: Searching for optional ST9 footprint in C:/Github/Geneology_40percent_keyboard/Geneology_Keyboard/Geneology_Keyboard.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:774]: Placing additional elements for SW8
+[board_modifier.py:98]: Getting SW8 footprint position: (171450000, 38100000)
+[board_modifier.py:75]: Searching for optional ST8 footprint in C:/Github/Geneology_40percent_keyboard/Geneology_Keyboard/Geneology_Keyboard.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:774]: Placing additional elements for SW7
+[board_modifier.py:98]: Getting SW7 footprint position: (152400000, 38100000)
+[board_modifier.py:75]: Searching for optional ST7 footprint in C:/Github/Geneology_40percent_keyboard/Geneology_Keyboard/Geneology_Keyboard.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:774]: Placing additional elements for SW6
+[board_modifier.py:98]: Getting SW6 footprint position: (133350000, 38100000)
+[board_modifier.py:75]: Searching for optional ST6 footprint in C:/Github/Geneology_40percent_keyboard/Geneology_Keyboard/Geneology_Keyboard.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:774]: Placing additional elements for SW5
+[board_modifier.py:98]: Getting SW5 footprint position: (114300000, 38100000)
+[board_modifier.py:75]: Searching for optional ST5 footprint in C:/Github/Geneology_40percent_keyboard/Geneology_Keyboard/Geneology_Keyboard.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:774]: Placing additional elements for SW4
+[board_modifier.py:98]: Getting SW4 footprint position: (95250000, 38100000)
+[board_modifier.py:75]: Searching for optional ST4 footprint in C:/Github/Geneology_40percent_keyboard/Geneology_Keyboard/Geneology_Keyboard.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:774]: Placing additional elements for SW3
+[board_modifier.py:98]: Getting SW3 footprint position: (76200000, 38100000)
+[board_modifier.py:75]: Searching for optional ST3 footprint in C:/Github/Geneology_40percent_keyboard/Geneology_Keyboard/Geneology_Keyboard.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:774]: Placing additional elements for SW2
+[board_modifier.py:98]: Getting SW2 footprint position: (57150000, 38100000)
+[board_modifier.py:75]: Searching for optional ST2 footprint in C:/Github/Geneology_40percent_keyboard/Geneology_Keyboard/Geneology_Keyboard.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:774]: Placing additional elements for SW1
+[board_modifier.py:98]: Getting SW1 footprint position: (38100000, 38100000)
+[board_modifier.py:75]: Searching for optional ST1 footprint in C:/Github/Geneology_40percent_keyboard/Geneology_Keyboard/Geneology_Keyboard.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:457]: Removing dangling tracks
